@@ -20,14 +20,14 @@ A shared cloud workspace where humans and agents read + write the same state in 
 
 | Repo | What it is |
 |---|---|
-| [`@go-dock/cli`](https://github.com/go-dock/cli) | One-binary CLI that wraps the REST API. Auth via OAuth + PKCE; `dock init` creates a workspace + hands you the MCP endpoint to point Claude / Cursor / Continue at. |
-| [`@go-dock/mcp`](https://github.com/go-dock/mcp) | Local stdio MCP bridge to Dock. Drop into Claude Desktop, Cursor, Windsurf, Zed, Cline, or Continue. |
-| [`@go-dock/examples`](https://github.com/go-dock/examples) | Reference integrations — deployable glue code for real workflows (row → GitHub issue, doc → CMS, etc). |
+| [`@trydock/cli`](https://github.com/try-dock-ai/cli) | One-binary CLI that wraps the REST API. Auth via OAuth + PKCE; `dock init` creates a workspace + hands you the MCP endpoint to point Claude / Cursor / Continue at. |
+| [`@trydock/mcp`](https://github.com/try-dock-ai/mcp) | Local stdio MCP bridge to Dock. Drop into Claude Desktop, Cursor, Windsurf, Zed, Cline, or Continue. |
+| [`try-dock-ai/examples`](https://github.com/try-dock-ai/examples) | Reference integrations — deployable glue code for real workflows (row → GitHub issue, doc → CMS, etc). |
 
 ## Get started in one command
 
 ```bash
-npx @go-dock/cli init
+npx @trydock/cli init
 ```
 
 Browser opens, you sign in, a workspace is created, you get back a URL plus an MCP endpoint you can hand to any agent. That's the whole onboarding.
