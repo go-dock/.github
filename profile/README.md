@@ -1,8 +1,10 @@
 <div align="center">
 
 <a href="https://trydock.ai">
-  <img src="https://raw.githubusercontent.com/try-dock-ai/brand/main/lockup/lockup-light-512.png#gh-light-mode-only" width="320" alt="Dock" />
-  <img src="https://raw.githubusercontent.com/try-dock-ai/brand/main/lockup/lockup-dark-512.png#gh-dark-mode-only" width="320" alt="Dock" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/try-dock-ai/brand/main/lockup/lockup-dark-512.png">
+    <img src="https://raw.githubusercontent.com/try-dock-ai/brand/main/lockup/lockup-light-512.png" width="320" alt="Dock" />
+  </picture>
 </a>
 
 <br/><br/>
