@@ -47,4 +47,3 @@ Each repo carries its own license — most are MIT. Brand assets are governed by
 ## Company
 
 Built by [Vector Apps Inc.](https://vector.build).
-Reach us: [hello@trydock.ai](mailto:hello@trydock.ai)
